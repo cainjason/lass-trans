@@ -11,4 +11,7 @@ function Footer() {
 
 export default Footer;
 
-const ContainerFooter = styled.div``;
+const ContainerFooter = styled.div`
+  background-color: gold;
+  
+`;

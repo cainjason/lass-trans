@@ -11,4 +11,8 @@ function Header() {
 
 export default Header;
 
-const ContainerHeader = styled.div``;
+const ContainerHeader = styled.div`
+  background-color: gold;
+  width: 100vw;
+  box-shadow: 3px;
+`;

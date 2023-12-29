@@ -8,10 +8,11 @@ import styled from 'styled-components';
 function App() {
   return (
     <Container className="app">
-      <h2>Lass</h2>
       <Header />
+			<Section>
       <Navbar />
 			<Body />
+			</Section>
 			<Footer />
     </Container>
   );
@@ -19,4 +20,10 @@ function App() {
 
 export default App;
 
-const Container = styled.div``;
+const Container = styled.div`
+	
+`;
+
+const Section = styled.div`
+	display: flex;
+`;

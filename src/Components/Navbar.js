@@ -11,4 +11,9 @@ function Navbar() {
 
 export default Navbar;
 
-const ContainerNavbar = styled.div``;
+const ContainerNavbar = styled.div`
+  background-color: #6666e6;
+  color: white;
+  height: 80vh;
+  width: 260px;
+`;

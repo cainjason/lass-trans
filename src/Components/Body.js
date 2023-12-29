@@ -11,4 +11,8 @@ function Body() {
 
 export default Body;
 
-const ContainerBody = styled.div``;
+const ContainerBody = styled.div`
+  background-color: lightgray;
+  width: 100vw;
+  
+`;
