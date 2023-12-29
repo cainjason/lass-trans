@@ -4,7 +4,17 @@ import styled from 'styled-components';
 function Navbar() {
   return (
     <ContainerNavbar>
-      <p>Navbar</p>
+      <ul>
+				<li>
+					<a href='/'>Home</a>
+				</li>
+				<li>
+					<a href='/'>About</a>
+				</li>
+				<li>
+					<a href='/'>Contact</a>
+				</li>
+      </ul>
     </ContainerNavbar>
   )
 }

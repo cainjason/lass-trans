@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function Footer() {
   return (
     <ContainerFooter>
-      <p>Footer</p>
+      {/* Company Info */}
     </ContainerFooter>
   )
 }
@@ -13,5 +13,6 @@ export default Footer;
 
 const ContainerFooter = styled.div`
   background-color: gold;
-  
+  height: 127px;
+ 
 `;
