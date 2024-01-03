@@ -5,13 +5,15 @@ import Body from './Components/Body';
 import Footer from './Components/Footer';
 import styled from 'styled-components';
 import Sidebar from './Components/Sidebar';
+import { useState } from 'react';
 
 function App() {
+  const [ showNav, setShowNav ] = useState (true)
   return (
     <Container className="app">
-      <Header />
+      <Header onClick={() => setShowNav(!showNav)}/>
 			<Section>
-      <Navbar />
+    {showNav && <Navbar />}
 			<Body />
 			<Sidebar />
 			</Section>

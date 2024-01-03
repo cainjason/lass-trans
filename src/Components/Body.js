@@ -10,6 +10,23 @@ function Body() {
   return (
     <ContainerBody>
       <div style={divStyles}>Lass Transports</div>
+      <form>
+        <label>Frist Name</label>
+        <br />
+        <input type='text' id='fname' name='fname'></input>
+        <br />
+        <label>Last Name</label>
+        <br />
+        <input type='text' id='lname'name='lname'></input>
+        <br />
+        <label>Email</label>
+        <br />
+        <input type='email' id='email' placeholder='lasstran@gmail.com'></input>
+        <br />
+        <label>Phone Number</label>
+        <br />
+        <input type='text'></input>
+      </form>
     </ContainerBody>
   )
 }

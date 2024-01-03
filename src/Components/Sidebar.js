@@ -12,7 +12,7 @@ function Sidebar() {
 export default Sidebar;
 
 const ContainerSidebar = styled.div`
-    background-color: #6666e6;
+    background-color: darkgoldenrod;
     height: 80vh;
     width: 240px;
 `;
